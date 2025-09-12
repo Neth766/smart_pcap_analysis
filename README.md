@@ -41,22 +41,23 @@ PacketProbe/
 
 Clone this repository:
 
+```bash
 git clone https://github.com/yourusername/PacketProbe.git
 cd PacketProbe
-
+```
 
 You can install dependencies in two ways:
 
 Manual installation
-
+```bash
 pip install -r requirements.txt
-
+```
 
 Auto-install feature (recommended)
 Just run the script normally:
-
+```bash
 python PacketProbe.py sample.pcap
-
+```
 
 If modules like scapy or colorama are missing, the script will detect it.
 
@@ -66,7 +67,6 @@ Missing dependencies detected:
   - scapy
   - colorama
 Do you want to auto-install them now? (y/n):
-
 
 If you type y, it will auto-install the required modules for you.
 
@@ -78,8 +78,9 @@ This makes life easier for reviewers and ensures nobody gets stuck on “ModuleN
 OR
 ***
 All required modules are listed in `requirements.txt`. You can install them manually with:
-
+```bash
 pip install -r requirements.txt
+```
 ---
 
 ## ▶️ Usage
@@ -268,3 +269,4 @@ Feel free to fork, modify, and share your improvements! 🚀
 ```
 
 ---
+
