@@ -266,7 +266,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 Feel free to fork, modify, and share your improvements! 🚀
 
-```
 
 ---
+
 
